@@ -20,8 +20,8 @@ id('product-box').addEventListener('click', function(e){
             const CardContainer = id('Add-Card-Container');
             const createCard = document.createElement('div')
             createCard.innerHTML = `
-                <div class="bg-gray-200 rounded-lg flex items-center justify-between p-4 mb-4 gap-8">
-                    <div class=""><img src="${productImg}" class="w-16 "></div>
+                <div class="bg-gray-200 rounded-lg flex items-center justify-between p-2 md:p-4 mb-4 gap-3 md:gap-5">
+                    <div class=""><img src="${productImg}" class="w-20 md:w-23 "></div>
                     <div>
                         <h2 class="text-[1rem] font-semibold">${productTitle}</h2>
                         <p class="text-[#797075] text-[0.85rem]">${productPrice}TK</p>
